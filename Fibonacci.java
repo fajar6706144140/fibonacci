@@ -18,12 +18,12 @@ public class Fibonacci {
      */
     public static void main(String[] args) {
        Scanner input = new Scanner(System.in);
-		int num1=0,num2=1,sum;
+		int num1=0,num2=1,sum, sum2 =1;
 		int count;
 		
 		System.out.print("Input: ");
 		int N = input.nextInt();
-		System.out.print("Output: " + N  );
+		System.out.print("Output: "  );
 		
 		
 		
@@ -32,8 +32,9 @@ public class Fibonacci {
 		sum=num1+num2; 
 		num1=num2; 
 		num2=sum; 
-		System.out.print(" "+num1); 
+                sum2 = num1+num2;
 		} 
+                System.out.println(" "+(sum2-1));
 		} 
     }
     
