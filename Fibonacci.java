@@ -33,10 +33,10 @@ public class Fibonacci {
 		
 
 		for (count = 1;count>= N; count++) { 
-		sum=num1+num2; 
-		num1=num2; 
-		num2=sum; 
-		System.out.print(" "+num1); 
+		sum=num2-num1; 
+		num2=num1; 
+		num=sum2; 
+		System.out.print(" "+num2); 
 		} 
 		} 
 		} 
